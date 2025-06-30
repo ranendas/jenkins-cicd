@@ -19,6 +19,8 @@ public class App {
         return "CI/CD Application Deployed successfully in ";
     }
 
+
+
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
