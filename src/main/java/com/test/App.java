@@ -14,7 +14,7 @@ public class App {
 
     @GetMapping("/ping")
     public String message() {
-        logger.info("CI/CD app started successfully");
+        logger.info("CI/CD app started successfully- try once more");
         return "CI/CD Application Deployed successfully in ";
     }
 
